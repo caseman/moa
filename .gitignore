@@ -1,4 +1,5 @@
 MASTER-OK
 .DS_Store
 moa_Master_of_ASCII.egg-info
+moa/__pycache__
 .mypy_cache

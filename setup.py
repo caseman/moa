@@ -18,6 +18,10 @@ setup(
     author_email='casey.duncan@gmail.com',
     url='https://github.com/caseman/moa',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    entry_points={
+        'console_scripts': [
+            'masterofascii = moa.launch:main',
+        ]
+    },
 )
-
