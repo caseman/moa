@@ -12,11 +12,11 @@ with open('LICENSE') as f:
 setup(
     name='moa -- Master of ASCII',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='A space conquest game in an ASCII universe',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Casey Duncan',
+    author_email='casey.duncan@gmail.com',
+    url='https://github.com/caseman/moa',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
